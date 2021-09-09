@@ -2,7 +2,7 @@ apt update
 apt upgrade 
 
 
-apt install -y nginx mysql-server php-fpm php-mysql zsh git curl powerline fonts-powerline php-mbstring php-xml install apt-transport-https ca-certificates  gnupg lsb-release
+apt install -y nginx mysql-server php-fpm php-mysql zsh git curl powerline fonts-powerline php-mbstring php-xml apt-transport-https ca-certificates  gnupg lsb-release
 
 if ! type "nodejs" > /dev/null; then
 	apt -y install nodejs npm
