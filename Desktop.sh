@@ -8,8 +8,7 @@ apt install -y nginx mysql-server php-fpm php-mysql git curl php-mbstring php-xm
 
 echo "do you want install gnome-tweaks ?(please type y OR n)"
 read input
-if [ "$input" = "yes" ] || [ "$input" = "y" ] 
-then
+if [ "$input" = "yes" ] || [ "$input" = "y" ];then
 	apt install -y gnome-tweaks
 fi
 
